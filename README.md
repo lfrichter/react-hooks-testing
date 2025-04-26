@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# React Hooks Testing Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a collection of tests and examples designed to explore and demonstrate the usage of various React Hooks introduced in React 16.8. The goal is to provide a hands-on understanding of how each hook works through practical implementations. This is a learning-focused project, primarily for educational purposes, and serves as a reference for developers looking to revise or understand React Hooks.
 
-## Available Scripts
+## Hooks Covered
+The project includes examples and tests for the following React Hooks:
 
-In the project directory, you can run:
+- **useState()**: Manages state in functional components.
+- **useEffect()**: Handles side effects, such as data fetching or subscriptions.
+- **useRef()**: Provides a mutable reference to DOM elements or values that persist across renders.
+- **useMemo()**: Optimizes performance by memoizing expensive computations.
+- **useCallback()**: Memoizes callback functions to prevent unnecessary re-renders.
+- **useContext()**: Accesses context values to share data across the component tree.
+- **useReducer()**: Manages complex state logic with a reducer function.
+- **useMyHook()**: A custom hook created to demonstrate how to build reusable logic in React.
 
-### `npm start`
+## Project Structure
+- `src/`:
+  - `components/`: Individual components testing each hook.
+  - `hooks/`: Custom hook implementations (e.g., `useMyHook`).
+- `tests/`: Unit tests for hook functionality (if applicable).
+- `README.md`: This file, providing an overview of the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Purpose
+This project was developed as a personal exercise to:
+- Deepen understanding of React Hooks through practical examples.
+- Test edge cases and common use cases for each hook.
+- Create a reusable reference for learning and revision.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Notes
+- This project is for testing and educational purposes. The code is experimental and may not follow production-level best practices.
+- Each hook is demonstrated with simple, isolated examples to focus on its core functionality.
+- Contributions or suggestions for improving the examples are welcome!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### License
+This project is open-source and available under the MIT License.
